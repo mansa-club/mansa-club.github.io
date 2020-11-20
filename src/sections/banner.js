@@ -19,8 +19,14 @@ const Banner = () => {
               late. We also provide early liquidity to investors, founders, and
               employees in the secondary market.
             </Text>
-            <Button style={{width: "100%"}}>
-              <a href="mailto:joey@mansa.club">Get In</a>
+            <Button
+              style={{ width: '100%' }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = 'mailto:joey@mansa.club';
+              }}
+            >
+              Get In
             </Button>
           </Box>
           <Box sx={styles.image}>
@@ -80,5 +86,5 @@ const styles = {
       top: ['0', null, null, null, null, '-40px'],
       maxWidth: ['100%', null, null, null, null, null, 'none'],
     },
-  }
+  },
 };
