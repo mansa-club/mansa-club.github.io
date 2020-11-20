@@ -14,7 +14,7 @@ const Banner = () => {
             <Text as="p">
               For Gen Z, by Gen Z. Mansa Club is an early stage venture capital
               firm that invests globally across all sectors. Our initial
-              investment sizes range from $25k to $50k. We’re not afraid to be a
+              investment sizes range from $50k to $500k. We’re not afraid to be a
               founder’s first investor, and welcome opportunities to come in
               late. We also provide early liquidity to investors, founders, and
               employees in the secondary market.
